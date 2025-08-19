@@ -18,12 +18,12 @@ This project focuses on analyzing a store sales dataset to extract valuable busi
 4. Dashboard Visualization (Power BI).  
 
 ## Team Members 
-- **Shokri Mohamed **  
-- **Mohamed Moatasem **   
-- **Mostafa Abdelhalim **  
-- **Doha Ezzat **   
-- **Alaa Mahmoud **   
-- **Yasmeen Hammad ** 
+- Shokri Mohamed   
+- Mohamed Moatasem    
+- Mostafa Abdelhalim   
+- Doha Ezzat    
+- Alaa Mahmoud    
+- Yasmeen Hammad  
 
 <!--
 **Store-Sales-Dataset-Analysis/Store-Sales-Dataset-Analysis** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
