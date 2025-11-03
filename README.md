@@ -8,7 +8,7 @@ This project aims to replace manual sales analysis with automated, visual, and d
 
 ## Project Idea
 
-The **Sales Performance Dashboard** is designed to provide decision-makers with a clear and engaging view of business performance.  
+The **Store Sales Dataset Analysis** is designed to provide decision-makers with a clear and engaging view of business performance.  
 By integrating and analyzing superstore sales data, the dashboard uncovers key insights such as top-selling products, regional sales trends, customer behavior, and shipping efficiency.  
 
 The dashboard supports strategic decisions by visualizing:
@@ -24,10 +24,10 @@ The dashboard supports strategic decisions by visualizing:
 **Team Name:** DEPI Superstore Sales Team  
 
 - Shokri Mohamed  
-- Doha Ezzat  
-- Alaa Mahmoud  
 - Mohamed Alanani  
 - Mustafa Abdelhalim  
+- Doha Ezzat  
+- Alaa Mahmoud  
 - Yasmeen Hammad  
 
 ---
@@ -118,8 +118,7 @@ The dashboard supports strategic decisions by visualizing:
 ## Project Files
 
 📂 You can find the full project files and dashboard here:  
-[Google Drive Link]([#](https://drive.google.com/drive/folders/1WR-d6cRs5_HcuzjiIfwGfk_6RE274Kh2?usp=drive_link
-))
+[Google Drive Link](https://drive.google.com/drive/folders/1WR-d6cRs5_HcuzjiIfwGfk_6RE274Kh2?usp=drive_link)
 
 ---
 
