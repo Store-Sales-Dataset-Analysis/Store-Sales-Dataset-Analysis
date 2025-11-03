@@ -1,5 +1,4 @@
-## Hi there 👋
-# Store Sales Dataset Analysis
+�# Store Sales Dataset Analysis
 
 An analytical academic project focused on building an interactive Power BI dashboard to evaluate sales performance, customer behavior, and shipping insights across different regions.  
 This project aims to replace manual sales analysis with automated, visual, and data-driven insights.
