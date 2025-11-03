@@ -1,27 +1,53 @@
 # Store Sales Dataset Analysis
 
-An analytical academic project focused on building an interactive Power BI dashboard to evaluate sales performance, customer behavior, and shipping insights across different regions.  
-This project aims to replace manual sales analysis with automated, visual, and data-driven insights.
+An interactive data analytics project that provides clear insights into sales performance, customer behavior, and shipping efficiency using **Power BI**, **Python**, and **Excel**.  
+The dashboard helps decision-makers identify trends, evaluate performance, and optimize business strategies based on real data.
 
 ---
 
-## Project Idea
+## Project Overview
 
-The **Store Sales Dataset Analysis** is designed to provide decision-makers with a clear and engaging view of business performance.  
-By integrating and analyzing superstore sales data, the dashboard uncovers key insights such as top-selling products, regional sales trends, customer behavior, and shipping efficiency.  
+### Objective
+Create an engaging and interactive Power BI dashboard to:
+- Visualize sales performance and trends.
+- Understand customer segments and purchasing patterns.
+- Analyze shipping methods and delivery times.
+- Compare regional sales and identify growth opportunities.
 
-The dashboard supports strategic decisions by visualizing:
-- Sales performance across categories, products, and regions.  
-- Customer purchasing behavior and segmentation.  
-- Shipping methods and delivery performance.  
-- Regional trends and growth opportunities.
+The goal is to automate and enhance analysis that was previously done manually, ensuring faster and data-driven decision-making.
 
 ---
 
-## Team Members
+## Project Scope
 
-**Team Name:** DEPI Superstore Sales Team  
+1. **Sales Performance** – Identify top-selling products, categories, and regions.  
+2. **Customer Insights** – Segment customers by purchasing behavior.  
+3. **Shipping Analysis** – Assess delivery performance and detect inefficiencies.  
+4. **Regional Trends** – Compare sales performance across locations.
 
+---
+
+## Project Planning & Timeline
+
+| Phase | Duration | Tasks |
+|-------|-----------|-------|
+| **Data Cleaning & Transformation** | 2 weeks | Handle missing values, correct errors, and change data types. |
+| **Data Modeling** | 1 week | Build data model linking a central Fact Table to multiple Dimension Tables. |
+| **Data Analysis & Metrics Creation** | 2 weeks | Calculate KPIs for sales, customer behavior, and shipping insights. |
+| **Dashboard Development** | 2 weeks | Build Power BI dashboard visuals and define KPIs. |
+| **Review & Refinement** | 1 week | Improve visuals, verify accuracy, and finalize the report. |
+| **Presentation & Documentation** | 1 week | Prepare findings, documentation, and final presentation. |
+
+---
+
+## Tools & Technologies
+- **Python** → Data cleaning, preprocessing, and calculations.  
+- **Excel** → Exploratory data checks and pre-analysis.  
+- **Power BI** → Data visualization and interactive dashboard creation.
+
+---
+
+## Team Members  
 - Shokri Mohamed  
 - Mohamed Alanani  
 - Mustafa Abdelhalim  
@@ -31,52 +57,25 @@ The dashboard supports strategic decisions by visualizing:
 
 ---
 
-## Work Plan
-
-| Phase | Tasks |
-|-------|-------|
-| **Data Cleaning & Transformation** | Handle missing values, correct data errors, and convert data types. |
-| **Data Analysis & Metrics Creation** | Calculate sales trends, customer behavior insights, and shipping performance. |
-| **Dashboard Development** | Build Power BI dashboards with visuals, KPIs, and filters. |
-| **Review & Refinement** | Verify data accuracy, enhance visuals, and finalize the report. |
-| **Presentation & Documentation** | Prepare findings, document the workflow, and present the final results. |
-
----
-
-## Roles & Responsibilities
-
-| Task | Team Members |
-|------|---------------|
-| **Data Cleaning & Transformation** | Mohamed Alanani, Mustafa Abdelhalim, Yasmeen Hammad |
-| **Data Analysis & Metrics Creation** | Shokri Mohamed, Doha Ezzat, Alaa Mahmoud |
-| **Dashboard Development** | All Team Members |
-| **Review & Refinement** | All Team Members |
-| **Presentation & Documentation** | All Team Members |
-
----
-
-## Tools
-
-- Python  
-- Excel  
-- Power BI  
-
----
-
 ## Risk Assessment
 
-- **Data inconsistency:** Order Date and Ship Date columns were not standardized, which complicated time-series analysis.  
-- **Missing & Inconsistent Values:** Missing postal codes were filled by identifying the most frequent postal code per city to maintain data consistency.  
+| Risk | Description | Mitigation |
+|------|--------------|-------------|
+| **Data inconsistency** | Date columns (Order Date, Ship Date) not in standard format, affecting time analysis. | Converted all dates to a unified datetime format. |
+| **Missing & Inconsistent Values** | Missing postal codes causing data gaps. | Filled missing postal codes using the most frequent postal code for each city. |
 
 ---
 
 ## Key Performance Indicators (KPIs)
 
-- Total Sales and Sales by Category  
-- Total Customers and Average Purchase Value  
-- Average Delivery Time and Orders by Ship Mode  
-- Monthly Sales Trends  
-- Sales by Region and by State  
+- **Total Sales**  
+- **Sales by Location / Region**  
+- **Average Sales per Customer**  
+- **Total Customers**  
+- **Average Purchase Value**  
+- **Average Delivery Time**  
+- **Orders by Ship Mode**  
+- **Sales by Month**
 
 ---
 
@@ -84,53 +83,49 @@ The dashboard supports strategic decisions by visualizing:
 
 | Column Name | Description |
 |--------------|-------------|
-| Row ID | Unique identifier for each row. |
-| Order ID | Unique identifier for each order. |
-| Order Date | Date when the order was placed. |
-| Ship Date | Date when the order was shipped. |
-| Ship Mode | Shipping method (Standard, Express, etc.). |
-| Customer ID | Unique identifier for each customer. |
-| Customer Name | Full name of the customer. |
-| Segment | Customer segment (Consumer, Corporate, Home Office). |
-| Country | Country where the order was placed. |
-| City | City of the order. |
-| State | State or province of the order location. |
-| Postal Code | Postal or ZIP code of the order. |
-| Region | Geographical region (East, West, Central, South). |
-| Product ID | Unique identifier for each product. |
-| Category | High-level product category (Furniture, Office Supplies, etc.). |
-| Sub-Category | Specific grouping within the main category (e.g., Chairs, Phones). |
-| Product Name | Specific name of the purchased product. |
-| Sales | Revenue generated from the transaction. |
-| Tax Value | Calculated as 1% of Sales. |
-| Shipping Cost | Calculated as 5% of Sales. |
-| Total Sales | Sales + Tax + Shipping. |
+| **Row ID** | Unique identifier for each row. |
+| **Order ID** | Unique order number. |
+| **Order Date** | Date when the order was placed. |
+| **Ship Date** | Date when the order was shipped. |
+| **Ship Mode** | Shipping method (Standard, Express, etc.). |
+| **Customer ID** | Unique customer identifier. |
+| **Customer Name** | Full customer name. |
+| **Segment** | Customer type (Consumer, Corporate, Home Office). |
+| **Country** | Country of order placement. |
+| **City** | City of order placement. |
+| **State** | State or province. |
+| **Postal Code** | ZIP code. |
+| **Region** | Geographical region (East, West, Central, South). |
+| **Product ID** | Unique identifier for each product. |
+| **Category** | Main product category (Furniture, Office Supplies, etc.). |
+| **Sub-Category** | Subdivision within category (e.g., Chairs, Phones). |
+| **Product Name** | Product title or name. |
+| **Sales** | Base sales amount. |
+| **Tax Value** | 1% of sales. |
+| **Shipping Cost** | 5% of sales. |
+| **Total Sales** | Sales + Tax + Shipping cost. |
 
 ---
 
 ## Instructor
-
 **Eng. Kareem Bakli**
 
 ---
 
 ## Project Files
-
-📂 You can find the full project files and dashboard here:  
-[Google Drive Link](https://drive.google.com/drive/folders/1WR-d6cRs5_HcuzjiIfwGfk_6RE274Kh2?usp=drive_link)
+All project resources, visuals, and reports are available here:  
+📂 [Google Drive Link](https://drive.google.com/drive/folders/1WR-d6cRs5_HcuzjiIfwGfk_6RE274Kh2)
 
 ---
 
 ## License
-
-This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+This project is licensed under the **Creative Commons Attribution 4.0 International License (CC BY 4.0).**
 
 You are free to:
 - **Share** — copy and redistribute the material in any medium or format.  
 - **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.  
 
 As long as you give appropriate credit to the creators:  
-**DEPI Superstore Sales Team – Sales Performance Dashboard Project (2025)**
+**Superstore Sales Dashboard Team (2025)**
 
-**Full license text:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-
+🔗 [Read full license text → CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
